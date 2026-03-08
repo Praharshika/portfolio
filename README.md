@@ -20,7 +20,7 @@ This is my personal portfolio website showcasing my projects, skills, and links 
 - Portfolio Website
 
 ## Live Website
-(Add your website link here if deployed)
+https://praharshika.github.io/portfolio/
 
 ## GitHub Repository
 https://github.com/praharshika/portfolio
