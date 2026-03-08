@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Praharshika Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body class="dark-theme">
+
+<!-- LOGIN FORM -->
+<div id="login-container">
+  <h2>Login to View Portfolio</h2>
+  <input type="text" id="username" placeholder="Username" />
+  <input type="password" id="password" placeholder="Password" />
+  <button id="login-btn">Login</button>
+  <p id="login-msg"></p>
+</div>
+
+<!-- PORTFOLIO -->
+<div id="portfolio-container" style="display:none;">
+
+  <div class="theme-toggle">
+    <button id="toggle-theme">Toggle Light/Dark Theme</button>
+  </div>
+
+  <!-- PROFILE -->
+  <section class="profile-section">
+    <div class="profile-photo-container">
+      <img src="images/photo.jpeg" alt="Praharshika V" class="profile-photo">
+    </div>
+    <h1 class="italic-heading">Praharshika V</h1>
+    <p>Full-Stack Developer | Creative Portfolio</p>
+    <p id="bio">Hi! I am Praharshika, a paassionate web developer building interactive and responsive websites</p>
+    <p id="experience"> I am right now pursuing my bachelors in engineering in Electronics and Communication. This is my First project </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section-block">
+    <h2 class="italic-heading">Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">Node.js</div>
+      <div class="skill-card">MongoDB</div>
+      <div class="skill-card">Java</div>
+      <div class="skill-card">DSA</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section-block">
+    <h2 class="italic-heading">Projects</h2>
+    <div class="projects-container" id="projects-container"></div>
+    <div class="project-card">
+      <img src="images/portfolio.png" alt="Portfolio Website" class="project-pic">
+      <h3>Portfolio Website</h3>
+      <p>My personal portfolio showcasing projects and skills.</p>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section-block">
+    <h2 class="italic-heading">Contact Me</h2>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/praharshika-v-408554339" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/praharshika" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="mailto:praharshika2006@gmail.com"><i class="fas fa-envelope"></i> Email Me</a>
+    </div>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
